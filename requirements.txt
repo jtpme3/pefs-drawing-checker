@@ -1,0 +1,4 @@
+PyMuPDF>=1.27.2      # PDF text/annotation extraction and markup (imported as fitz)
+openpyxl>=3.1.5      # Excel report writing, checklist and MAOP workbook reading
+ezdxf>=1.4.3         # DXF front-end (drawing_checker/dxf_*.py)
+pyspellchecker>=0.9  # SP-01 spell check (imported as spellchecker)

@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# Client data is deliberately NOT tracked.
+#
+# This tool is developed against issued Origin drawings, Origin internal
+# standards and marked-up outputs. None of that is ours to publish, so the
+# repository carries the tool only. See README "Getting the data" for what to
+# put back to run the tests.
+# ---------------------------------------------------------------------------
+reference/
+origin standards/
+samples/
+output/
+ErrorReports/
+
+# Stray client documents anywhere in the tree
+*.pdf
+*.xlsx
+*.xls
+*.dwg
+*.dxf
+*.nwd
+*.msg
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
